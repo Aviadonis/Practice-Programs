@@ -1,0 +1,12 @@
+import numpy as np
+a=np.array([[1,2,3],[4,5,6]],float)
+b = np.array([1,2,3],float)
+print(a)
+print (a.shape,"\n",a.itemsize)
+print(type(b[0]) is type(a[1,2]))
+print(type(b[0]))
+c=np.array([1,2,3,4,5,6])
+print(type(a))
+print(a.dtype)
+print(a.itemsize)
+print(a.nbytes)
